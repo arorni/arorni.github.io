@@ -9757,4 +9757,12 @@ textarea.form-control {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
 
+html {
+  scroll-padding-top: 90px;  /* keeps the header offset */
+}
 
+@media (max-width: 768px) {
+  html {
+    scroll-padding-top: 120px;
+  }
+}
